@@ -1,5 +1,7 @@
-sal = float(input("Coloque o seu salário: "))
+sal = float(input("Coloque o seu salário: R$ "))
 
 aume = (sal * 115) / 100
 
-print("Agora você vai receber: {}" .format(aume))
+print("O seu salário era: R$ {:.2f}" .format(sal))
+
+print("Agora você vai receber: {:.2f}" .format(aume))
