@@ -1,0 +1,13 @@
+num = int(input("Digite um valor e será demonstrado a sua tabuada: "))
+print("-" * 12)
+print("{} * 1 = {:2}" .format(num, num * 1))
+print("{} * 2 = {:}" .format(num, num * 2))
+print("{} * 3 = {:}" .format(num, num * 3))
+print("{} * 4 = {:}" .format(num, num * 4))
+print("{} * 5 = {:2}" .format(num, num * 5))
+print("{} * 6 = {:2}" .format(num, num * 6))
+print("{} * 7 = {:2}" .format(num, num * 7))
+print("{} * 8 = {:2}" .format(num, num * 8))
+print("{} * 9 = {:2}" .format(num, num * 9))
+print("-" * 12)
+
