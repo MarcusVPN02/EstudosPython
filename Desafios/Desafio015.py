@@ -1,12 +1,7 @@
-temp = float(input("Coloque o valor da temperatura em °C: "))
+d = int(input("Por quantos dias o carro foi alugado? "))
 
-f = (temp * (9/5)) + 32
+km = float(input("Quantos quilômetros você percorreu? "))
 
-k = (temp + 273.15)
+p = (d * 60) + (km * 0.15)
 
-print("Graus Celsius: {:.2f}°C" .format(temp))
-
-print("Graus Fahrenheit: {:.2f}°F" .format(f))
-
-print("Graus Kelvin: {:.2f}°K" .format(k))
-
+print("O preço a pagar pelo aluguel é: R$ {:.2f} " .format(p))

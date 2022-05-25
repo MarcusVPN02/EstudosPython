@@ -1,14 +1,14 @@
-# from math import sqrt, ceil, floor
+#from math import sqrt, ceil, floor
 
-# num = int(input("Digite um número: "))
+ #num = int(input("Digite um número: "))
 
-# raiz = sqrt(num)
+ #raiz = sqrt(num)
 
  #print("A raiz de {} vale {}." .format(num, ceil(raiz)))
 
-# print("Arredondado para baixo vale: {}" .format(floor(raiz)))
+ # print("Arredondado para baixo vale: {}" .format(floor(raiz)))
 
-# print("A raiz normal vale: {}" .format(raiz))
+#print("A raiz normal vale: {}" .format(raiz))
 
 # import random
 

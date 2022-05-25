@@ -1,7 +1,8 @@
-d = int(input("Por quantos dias o carro foi alugado? "))
+import math
 
-km = float(input("Quantos quilômetros você percorreu? "))
 
-p = (d * 60) + (km * 0.15)
+num = float(input("Digite um número: "))
 
-print("O preço a pagar pelo aluguel é: R$ {:.2f} " .format(p))
+numint = math.floor(num)
+
+print("O número {} tem a parte inteira {}." .format(num, numint))
