@@ -1,17 +1,15 @@
 import math
 
-graus = int(input("Coloque um valor de graus: "))
+num = float(input("Digite um valor: "))
 
-seno = math.sin(graus)
+s = math.sin(math.radians(num))
 
-cos = math.cos(graus)
+c = math.cos(math.radians(num))
 
-tang = math.tan(graus)
+t = math.tan(math.radians(num))
 
-print("O valor digitado em graus é: {}°." .format(graus))
+print("O seno de {} vale {:.2f}." .format(num, s))
 
-print("O seno vale: {:.3f}." .format(seno))
+print("O cosseno de {} vale {:.2f}." .format(num, c))
 
-print("O valor do cosseno é:{:.3f}." .format(cos))
-
-print("O valor da tangente é: {:.3f}." .format(tang))
+print("A tangente de {} vale {:.2f}." .format(num, t))
