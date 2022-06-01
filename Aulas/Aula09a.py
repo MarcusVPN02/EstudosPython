@@ -40,4 +40,4 @@ dividido = frase.split() # Dividido é objeto
 
 print(dividido[0])
 
-print(dividido [0] [3])
+print(dividido [0] [3]) '''teste'''
