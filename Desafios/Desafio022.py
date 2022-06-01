@@ -1,7 +1,8 @@
 n = input("Qual o seu nome completo? ")
 
-m = n.upper
+m = n.upper()
 
-l = n.lower
+l = n.lower()
 
-tam = len(n.)
+tam = len(n.strip())
+
