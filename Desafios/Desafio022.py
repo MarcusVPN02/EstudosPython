@@ -6,3 +6,16 @@ l = n.lower()
 
 tam = len(n.strip())
 
+
+d = n.split()
+
+
+print("Nome: {}." .format(n))
+
+print("Nome em maiúsculo: {}." .format(m))
+
+print("Nome em minúsculo: {}." .format(l))
+
+print("Quantas letras esse nome possui: {}" .format(tam))
+
+print("Primeiro nomte {} letras." .format(len(d [0])))
