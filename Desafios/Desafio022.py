@@ -18,4 +18,4 @@ print("Nome em minúsculo: {}." .format(l))
 
 print("Quantas letras esse nome possui: {}" .format(tam))
 
-print("Primeiro nomte {} letras." .format(len(d [0])))
+print("Primeiro nome {} letras." .format(len(d [0])))
