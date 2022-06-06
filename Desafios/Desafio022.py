@@ -1,21 +1,17 @@
-n = input("Qual o seu nome completo? ")
+nome = input("Digite o seu nome completo: ").strip()
 
-m = n.upper()
+maiu = nome.upper()
 
-l = n.lower()
+minu = nome.lower()
 
-tam = len(n.strip())
+div = nome.split()
 
+print("O seu nome é: {}" .format(nome))
 
-d = n.split()
+print("Em maiúsculo fica: {}" .format(maiu))
 
+print("Em minúsculo fica: {}" .format(minu))
 
-print("Nome: {}." .format(n))
+print("O seu nome tem {} letras." .format(len(nome) - nome.count(" ")))
 
-print("Nome em maiúsculo: {}." .format(m))
-
-print("Nome em minúsculo: {}." .format(l))
-
-print("Quantas letras esse nome possui: {}" .format(tam))
-
-print("Primeiro nome {} letras." .format(len(d [0])))
+print("O seu primeiro nome é {} e ele tem {} letras." .format(div[0], len(div[0])))
