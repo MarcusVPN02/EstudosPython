@@ -1,7 +1,15 @@
-f = input("Escreva uma frase: ")
+f = str(input("Digite uma frase: ")).strip()
 
-print("Foram encontrados {} as na sua frase." .format(f.count("A")))
+a = f.lower().count("a", 0, )
 
-print("A primeira vez em que o A apareceu: {} posição." .format(f.find("A")))
+p = f.lower().lfind(a)
 
-print("Última aparição do A: {} posição." .format(f.find("A" in [:])))
+u = f.lower().rfind(a)
+
+print("Você digitou: \n{}" .format(f))
+
+print("A letra a apareceu {} vezes." .format(a))
+
+print(p)
+
+print(u)
