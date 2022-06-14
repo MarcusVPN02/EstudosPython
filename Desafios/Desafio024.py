@@ -1,3 +1,4 @@
-cid = input("Digite um nome de uma cidade: ")
+c = str(input("Em que cidade você nasceu? ")).strip()
 
-print("Essa cidade possui Santo no nome? R: {} " .format("Santo" in cid))
+print("O sua cidade possui Santo no nome? R: {}".format(c[:5].upper() == "SANTO"))
+
