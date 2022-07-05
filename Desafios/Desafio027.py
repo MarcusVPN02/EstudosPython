@@ -1,7 +1,9 @@
-n = input("Nome completo: ")
+n = str(input("Nome completo: ").strip())
 
-divi = n.split()
+d = n.split()
 
-print("O seu primeiro nome é: {}" .format(divi[0]))
+print("Seu nome é {}." .format(n))
 
-print("O seu último nome é: {}" .format(divi[1]))
+print("O seu primeiro nome é: {}" .format(d[0]))
+
+print("O seu último nome é: {}". format(d[len(d) - 1]))
