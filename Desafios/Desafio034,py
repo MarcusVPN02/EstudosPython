@@ -1,0 +1,13 @@
+s = int(input("Qual o seu salário? "))
+
+a = (s * 0.10) + s
+
+b = (s * 0.15) + s
+
+if s > 1250:
+    print("O seu salário era de R${},00" .format(s))
+    print("Você recebeu um aumento de 10%,\n e agora receberá R${:.2f} " .format(a))
+    
+else:
+    print("O seu salário era de {}" .format(s))
+    print("Você recebeu um aumento de 15%,\n você receberá R${:.2f}" .format(b))
