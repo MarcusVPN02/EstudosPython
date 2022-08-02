@@ -1,13 +1,11 @@
-a = int(input("Em que ano você está? R: "))
+a = int(input("Qua ano você deseja analisar? R: ").strip())
 
-b = a % 4
 
-d = a % 100
-
-if b == 0:
-    print("O digitado foi: {}" .format(a))
-    print("O ano é bissexto.")
-
-else: 
-    print("O ano não é bissexto.")
+if a % 4 == 0 and a % 100 != 0: 
+    
+    print("O ano {} é bissexto." .format(a))
+    
+else:
+    print("O ano {} não é bissexto." .format(a))
+   
      
