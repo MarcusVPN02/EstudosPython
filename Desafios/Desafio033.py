@@ -10,4 +10,12 @@ if s < p and s < t:
 if t < p and t < s:
     menor = t
     
+maior = p 
+
+if s > p and s > t:
+    maior = s
+if t > p and t > s: 
+    maior = t
 print("O menor número é: {}" .format(menor))
+
+print("O maior número é: {}" .format(maior))
