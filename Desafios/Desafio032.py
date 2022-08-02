@@ -1,5 +1,9 @@
-a = int(input("Qua ano você deseja analisar? R: ").strip())
+from datetime import date
 
+a = int(input("Qua ano você deseja analisar? Se deseja saber o ano atual, pressione 0. R: ").strip())
+
+if a == 0: 
+    a = date.today().year
 
 if a % 4 == 0 and a % 100 != 0: 
     
@@ -7,5 +11,3 @@ if a % 4 == 0 and a % 100 != 0:
     
 else:
     print("O ano {} não é bissexto." .format(a))
-   
-     
