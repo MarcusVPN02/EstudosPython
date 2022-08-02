@@ -2,7 +2,7 @@ import random
 
 t = int(input("Digite um valor entre 0 a 5 e vejamos se \nvocê pensou no mesmo número que o computador:  ").strip())
 
-x = random.randint(1,6)
+x = random.randint(0,5)
 
 if t == x:
     print("Meus parabéns!!")
