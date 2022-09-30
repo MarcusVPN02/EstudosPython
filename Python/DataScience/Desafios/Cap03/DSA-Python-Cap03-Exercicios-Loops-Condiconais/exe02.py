@@ -6,4 +6,4 @@ for x in listfrut:
     if x == "Morango":
         print("Tem morango!!!")
     else:
-        print("Não tem morango")
+        print("Não tem morango") 
