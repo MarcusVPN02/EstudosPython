@@ -1,13 +1,12 @@
 # Exercício 3 - Crie uma função que receba como parâmetro uma lista de 4 elementos, adicione 2 elementos a lista e 
 # imprima a lista
 
-def adiciona(lista):
-    print(lista.append(5))
-    print(lista.append(6))
+def func(adiciona):
+    print(adiciona.append(5))
+    print(adiciona.append(6))
 
+lista = [1,2,3,4]
 
-lista1 = [1,2,3,4]
+func(lista)
 
-adiciona(lista1)
-
-print(lista1)
+print(lista)
