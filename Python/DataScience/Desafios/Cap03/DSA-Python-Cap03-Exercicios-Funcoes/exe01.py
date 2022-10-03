@@ -7,3 +7,11 @@ def seq():
         x += 1
 
 seq()
+
+'''OU 
+
+def sequencia():
+    for x in range(1,21):
+        print("Número %a" %(x))
+
+sequencia()'''
